@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
 }
+section {
+  margin-bottom: 100px;
+}
 .banner-bg {
   /*background: linear-gradient(90deg, #1a1a1a -0.7%, rgba(26, 26, 26, 0) 100%), url(images/Rectangle\ 1.png);*/
   background: linear-gradient(to left, rgba(245, 246, 252, 0.1), rgba(0, 0, 0, 0.8)), url(images/Rectangle\ 1.png);
@@ -33,4 +36,52 @@ body {
   font-size: 20px;
   font-weight: bold;
   margin-left: -280px;
+}
+/*End Banner section*/
+.container-top {
+  display: flex;
+}
+.container-top-left {
+  width: 40%;
+  margin-left: 10%;
+  margin-top: 20px;
+  padding-right: 80px;
+}
+.container-top-left h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.container-top-left p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.container-top-right {
+  width: 40%;
+  margin-right: 10%;
+}
+.container-top-right img {
+  border-radius: 5px;
+}
+.link-button-two {
+  text-decoration: none;
+  background-color: #ef233c;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.main-img {
+  position: relative;
+}
+.video-icon {
+  position: absolute;
+  top: 950px;
+  left: 850px;
+}
+.play-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
